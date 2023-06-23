@@ -6,9 +6,14 @@ namespace OOPsConceptProblem
     {
         public static void Main(string[] args)
         {
-            Overloading overloading = new Overloading();
-            overloading.Totalsum(2, 4);
-            overloading.Totalsum(3.6, 5.7);
+            Dog dog = new Dog();
+            dog.Eat();
+            dog.Bark();
+
+            Horse horse = new Horse();
+            horse.Eat();
+            horse.Run();
+            horse.Gallop();
         }           
     }
 
